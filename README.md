@@ -1,4 +1,4 @@
-# <%= title %> Format
+# ANU Quarto Revealjs Template
 
 ## Installing
 
