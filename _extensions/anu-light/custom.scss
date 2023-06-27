@@ -1,0 +1,73 @@
+/*-- scss:defaults --*/
+
+$link-color: #be830e;
+/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+#title-slide .title {
+  text-align: left!important;
+  font-size: 2em!important;
+  color: #be830e;
+}
+
+#title-slide .subtitle {
+  text-align: left!important;
+  font-size: 1.2em!important;
+  color: #be830e;
+}
+
+#title-slide .quarto-title-authors {
+  text-align: left!important;
+  display: block;
+}
+
+#title-slide .date {
+  text-align: left!important;
+  font-size: 0.6em!important;
+}
+
+#title-slide .slide-logo {
+  display: none!important;
+}
+
+
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 14px !important;
+  right: 14px !important;
+  top: unset !important;
+  color: #777777 !important;
+  font-size: 0.25em!important;
+}
+
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+.slide-logo {
+  display: block !important;
+  position: fixed !important;
+  right: 40px !important;
+  bottom: 4% !important;
+  height: 5% !important;
+  width: auto !important;
+  overflow: visible;
+}
+
+.slide-logo:before, .slide-logo:after {
+  background-color: #000;
+  content: "test";
+  display: block;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 4%;
+  width: 400px;
+}
+
+
