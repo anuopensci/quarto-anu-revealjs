@@ -5,7 +5,10 @@ format:
   anu-light-revealjs:
     width: 1920
     height: 1080
-    self-contained: true
+    chalkboard: true
+    auto-stretch: false
+    html-math-method: katex
+    self-contained: false
 author: Emi Tanaka
 institute: Biological Data Science Institute
 date: last-modified
@@ -14,6 +17,7 @@ date-format: "D[th] MMMM YYYY"
 
 ## Introduction
 
+{{< fa link >}}
 
 
 
