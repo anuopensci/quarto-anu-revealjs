@@ -9,6 +9,10 @@ code span {
   color: #007BA5;
 }
 
+pre > code.sourceCode > span {
+    color: #F2F3F5;
+}
+
 code.sourceCode > span {
   color: rgb(234, 234, 234);
 }
