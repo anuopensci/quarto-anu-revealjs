@@ -1,0 +1,27 @@
+---
+title: Revealjs Quarto template 
+subtitle: for the Australian National University
+format:
+  anu-light-revealjs:
+    width: 1920
+    height: 1080
+    chalkboard: true
+    auto-stretch: false
+    html-math-method: katex
+    self-contained: false
+author: Emi Tanaka
+institute: Biological Data Science Institute
+date: last-modified
+date-format: "D[th] MMMM YYYY"
+---
+
+## Introduction
+
+{{< fa link >}}
+
+
+
+## More Information
+
+You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
+

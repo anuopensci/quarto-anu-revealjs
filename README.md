@@ -5,7 +5,7 @@
 ## Installing
 
 ```bash
-quarto use template anu-links/quarto-anu-revealjs
+quarto use template anuopensci/quarto-anu-revealjs
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
