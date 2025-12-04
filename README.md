@@ -8,7 +8,15 @@
 quarto use template anuopensci/quarto-anu-revealjs
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+This will install the extension and create an example qmd file that you can use as a starting place for your slides.
+
+Alternatively, you can add the format without the template into a existing project or directory:
+
+```bash
+quarto add anuopensci/quarto-anu-revealjs
+```
+
+
 
 ## Using
 
